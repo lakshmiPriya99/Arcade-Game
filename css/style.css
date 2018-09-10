@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color: #5B176F;
+}
+
+h1, h3 {
+    font-family: "Lato",sans-serif;
+}
+
+header {
+    color: #F5EE0E;
+    font-family: "Lato", sans-serif;
+}
+p {
+    font-family: "Comfortaa", sans-serif;
+}
+canvas {
+    margin-top: -3em; 
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    width: 510px;
+    height: 538px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.onStart {
+    position: absolute;
+    background-color: #8DDF76;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 133px;
+    width: 430px;
+    height: 420px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.onStart button {
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.hide {
+	visibility: hidden;
+	opacity: 0 !important;
+}
+.show {
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+.gameComplete {
+    font-family: "Comfortaa", sans-serif;
+    position: absolute;
+    background-color: #F50E8C;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 163px;
+    width: 357px;
+    height: 313px;
+    margin: 0 auto;
+    padding: 3em 3em;
+    visibility: hidden;
+}
+
+.gameComplete button {
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 2em;
+}
+
+.win {
+    font-family: "Comfortaa";
+    position: absolute;
+    background-color: #0D4ABC;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 153px;
+    width: 347px;
+    height: 303px;
+    margin: 0 auto;
+    padding: 3em 3em;
+    color: #fff;
+    visibility: hidden;
+}
+
+.win button {
+    background-color: #D62246;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 2em;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Comfortaa|Lato|PT+Sans+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FROGGER</h1>
+    </header>
+    <!-- Starting modal -->
+    <div class="overlay"></div>
+
+    <div class="onStart">
+        <h3>How to play</h3>
+        <strong>
+            <p>Use arrow keys to move the player: up, down, left, right. Don't hit the bugs.</p>
+            <h3>Challenge</h3>
+            <p>Reach the water blocks with 100 points.</p>
+            <p>You now have 3 lives. Good luck!</p>
+        </strong>
+        <button onclick="onStart()"> Play </button>
+    </div>
+
+    <!-- Lives Lost Modal -->
+    <div class="gameComplete">
+        <h1>Game Over</h1>
+        <p> Uh-Oh! Lost all 3 lives!</p>
+        <h3>Play again to win the game</h3>
+        <button onclick="playAgain()"> Play Again </button>
+    </div>
+    <!-- Winner Modal -->
+
+    <div class="win">
+        <h1>You WON! </h1>
+        <h3>Awesome!!</h3>
+        <p>Points Scored:  <span id=finalPoints></span></p>
+        <button onclick="playAgain()"> Play Again </button>
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
+
